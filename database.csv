@@ -1,3 +1,11 @@
 Domestic players,Exterior players,Victory,Goals diff,Domestic goals,Exterior goals,Scorers,Domestic team,Exterior team,Time
 "Marc, Monnier",Stephen,exterior,2,0,2,"{'Marc': 0, 'Monnier': 0, 'Stephen': 2}",Arsenal,Real Betis,2023-08-21 14:26:06.148320
 "Marc, Monnier",Stephen,domestic,1,1,0,"{'Marc': 0, 'Monnier': 1, 'Stephen': 0}",Arsenal,Real Betis,2023-08-21 14:26:25.198219
+Marc,"Monnier, Stephen",exterior,1,2,3,"{'Marc': 2, 'Monnier': 1, 'Stephen': 2}",Villarreal,Real Sociedad,2023-08-21 19:11:05.531428
+Marc,"Monnier, Stephen",domestic,3,4,1,"{'Marc': 4, 'Monnier': 1, 'Stephen': 0}",Villarreal,Real Sociedad,2023-08-21 19:24:34.637660
+Marc,"Monnier, Stephen",domestic,3,3,0,"{'Marc': 3, 'Monnier': 0, 'Stephen': 0}",Atletico Madrid,Newcastle,2023-08-21 20:01:52.782021
+Marc,"Monnier, Stephen",draw,0,2,2,"{'Marc': 2, 'Monnier': 1, 'Stephen': 1}",Atletico Madrid,Newcastle,2023-08-21 20:03:09.251965
+Monnier,"Marc, Stephen",domestic,7,7,0,"{'Marc': 0, 'Monnier': 7, 'Stephen': 0}",Manchester City,Guangzhou FC,2023-08-21 20:26:46.439347
+Monnier,"Marc, Stephen",domestic,4,4,0,"{'Marc': 0, 'Monnier': 4, 'Stephen': 0}",Manchester City,Guangzhou FC,2023-08-21 20:28:04.037419
+"Monnier, Stephen",Marc,exterior,1,2,3,"{'Marc': 3, 'Monnier': 1, 'Stephen': 1}",Angers SC,Rayo Vallecano,2023-08-21 20:49:52.036944
+"Monnier, Stephen",Marc,domestic,1,3,2,"{'Marc': 2, 'Monnier': 2, 'Stephen': 1}",Angers SC,Rayo Vallecano,2023-08-21 20:50:44.901752
