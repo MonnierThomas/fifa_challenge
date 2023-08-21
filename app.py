@@ -25,6 +25,13 @@ def main():
     if not edited_df.equals(st.session_state.df):
         edited_df.to_csv("database.csv", index=False)
 
+    with open("database.csv", "rb") as file:
+        _ = st.download_button(
+            label="Download csv",
+            data=file,
+            file_name="database.csv",
+            mime="application/csv"
+        )
 
 if __name__ == "__main__":
     main()
