@@ -51,7 +51,7 @@ for _, row in st.session_state.df.iterrows():
     else:
         for player in domestic_players + exterior_players:
             players_pts[player] += 1
-            ranking[player]["Pts"] += 1
+            ranking[player]["Pts"] += 3
             ranking[player]["N"] += 1
     
     for d_player in domestic_players:
@@ -89,7 +89,8 @@ def highlight_cols(s):
     color = '#90EE90'
     return 'background-color: %s' % color
 
-st.table(pd.DataFrame.from_dict(ranking, orient='index').style.applymap(highlight_cols, subset=pd.IndexSlice[:, ['Pts']]))
+table = pd.DataFrame.from_dict(ranking, orient='index').sort_values(by=['Pts'], ascending=False).astype(int).style.applymap(highlight_cols, subset=pd.IndexSlice[:, ['Pts']])
+st.table(table)
 
 col1, col2, col3 = st.columns(3)
 
