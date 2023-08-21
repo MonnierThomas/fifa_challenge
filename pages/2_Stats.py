@@ -51,7 +51,7 @@ for _, row in st.session_state.df.iterrows():
     else:
         for player in domestic_players + exterior_players:
             players_pts[player] += 1
-            ranking[player]["Pts"] += 3
+            ranking[player]["Pts"] += 1
             ranking[player]["N"] += 1
     
     for d_player in domestic_players:
