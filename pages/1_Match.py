@@ -1,10 +1,13 @@
 import streamlit as st
 import pandas as pd
-import json
 
 from datetime import datetime
 
 st.set_page_config(layout="wide")
+
+if 'df' not in st.session_state:
+    with open("database.csv", "r") as file:
+        st.session_state.df = pd.read_csv(file)
 
 st.markdown(
         "<h1 style='text-align: center; color: blue;'>Fifa Match</h1>",
