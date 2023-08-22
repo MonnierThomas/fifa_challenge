@@ -5,6 +5,10 @@ import ast
 # Create a new markdown section and add a title for the stats page.
 st.set_page_config(layout="wide")
 
+if 'df' not in st.session_state:
+    with open("database.csv", "r") as file:
+        st.session_state.df = pd.read_csv(file)
+
 st.markdown(
         "<h1 style='text-align: center; color: blue;'>Statistics</h1>",
         unsafe_allow_html=True,
@@ -13,6 +17,7 @@ st.markdown(
 players = ["Marc", "Monnier", "Stephen"]
 ranking = {i: {
     "MJ": 0,
+    "MJS": 0,
     "G": 0,
     "N": 0,
     "P": 0,
@@ -79,6 +84,12 @@ for _, row in st.session_state.df.iterrows():
     else:
         teams[d_team] += 1
         teams[e_team] += 1
+    
+    if len(domestic_players) == 1:
+        ranking[domestic_players[0]]["MJS"] += 1
+    
+    if len(exterior_players) == 1:
+        ranking[exterior_players[0]]["MJS"] += 1
 
 st.markdown(
     "<h3 style='text-align: center; color: red;'>Ranking</h3>",
