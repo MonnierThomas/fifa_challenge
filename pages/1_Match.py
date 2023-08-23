@@ -70,3 +70,5 @@ if submitted:
 
     final_df = pd.concat([st.session_state.df, df], ignore_index=True)
     final_df.drop_duplicates().to_csv("database.csv", index=False)
+
+    del st.session_state["df"]
