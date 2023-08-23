@@ -21,3 +21,15 @@ Stephen,"Monnier, Marc",exterior,1,2,3,"{'Marc': 1, 'Monnier': 2, 'Stephen': 2}"
 Stephen,"Monnier, Marc",exterior,1,1,2,"{'Marc': 1, 'Monnier': 1, 'Stephen': 1}",AIK,AC Milan,2023-08-22 21:46:26.165273
 Marc,"Monnier, Stephen",domestic,2,2,0,"{'Marc': 2, 'Monnier': 0, 'Stephen': 0}",Arsenal,Liverpool,2023-08-22 22:09:11.685471
 Marc,"Monnier, Stephen",exterior,2,2,4,"{'Marc': 2, 'Monnier': 2, 'Stephen': 2}",Arsenal,Liverpool,2023-08-22 22:09:52.103172
+Marc,"Monnier, Stephen",domestic,2,2,0,"{'Marc': 2, 'Monnier': 0, 'Stephen': 0}",Eintracht Frankfurt,Real Betis,2023-08-23 18:36:27.692292
+Marc,"Monnier, Stephen",draw,0,0,0,"{'Marc': 0, 'Monnier': 0, 'Stephen': 0}",Eintracht Frankfurt,Real Betis,2023-08-23 18:36:38.439785
+Marc,"Monnier, Stephen",domestic,1,2,1,"{'Marc': 2, 'Monnier': 0, 'Stephen': 1}",Real Madrid,Southampton,2023-08-23 19:48:06.509979
+Marc,"Monnier, Stephen",domestic,1,2,1,"{'Marc': 2, 'Monnier': 1, 'Stephen': 0}",Real Madrid,Southampton,2023-08-23 19:48:20.312111
+Monnier,"Marc, Stephen",domestic,1,2,1,"{'Marc': 1, 'Monnier': 2, 'Stephen': 0}",Tottenham,Slavia Prague,2023-08-23 20:13:28.611447
+Monnier,"Marc, Stephen",domestic,1,2,1,"{'Marc': 0, 'Monnier': 2, 'Stephen': 1}",Tottenham,Slavia Prague,2023-08-23 20:13:34.578848
+Marc,"Monnier, Stephen",draw,0,1,1,"{'Marc': 1, 'Monnier': 1, 'Stephen': 0}",Manchester United,Chelsea,2023-08-23 20:40:50.940980
+Marc,"Monnier, Stephen",domestic,1,2,1,"{'Marc': 2, 'Monnier': 0, 'Stephen': 1}",Manchester United,Chelsea,2023-08-23 20:41:01.055857
+Monnier,"Marc, Stephen",domestic,2,2,0,"{'Marc': 0, 'Monnier': 2, 'Stephen': 0}",Juventus,Manchester United,2023-08-23 21:17:50.371430
+Monnier,"Marc, Stephen",domestic,3,4,1,"{'Marc': 0, 'Monnier': 4, 'Stephen': 1}",Juventus,Manchester United,2023-08-23 21:17:59.778544
+Stephen,"Marc, Monnier",exterior,2,4,6,"{'Marc': 0, 'Monnier': 5, 'Stephen': 4}",RBK,Atalanta Bergame,2023-08-23 21:39:11.170535
+Stephen,"Marc, Monnier",exterior,3,3,6,"{'Marc': 5, 'Monnier': 1, 'Stephen': 3}",RBK,Atalanta Bergame,2023-08-23 21:47:53.222818
