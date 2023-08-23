@@ -17,9 +17,20 @@ def main():
     with open("database.csv", "r") as file:
         st.session_state.df = pd.read_csv(file)
 
+    _ = st.radio(
+        "Modify the database?",
+        ('No', 'Yes'),
+        key="num_rows"
+    )
+
+    if st.session_state.num_rows == "Yes":
+        num_rows="dynamic"
+    else:
+        num_rows="fixed"
+
     edited_df = st.data_editor(
         st.session_state.df,
-        num_rows="dynamic",
+        num_rows=num_rows,
     )
 
     if not edited_df.equals(st.session_state.df):
