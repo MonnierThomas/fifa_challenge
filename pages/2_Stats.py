@@ -113,7 +113,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-df_ranking = pd.DataFrame.from_dict(ranking, orient='index').sort_values(by=['Pts'], ascending=False).drop(["GS", "NS"], axis=1, inplace=False).astype(int)
+df_ranking = pd.DataFrame.from_dict(ranking, orient='index').sort_values(by=['Pts', 'DB'], ascending=False).drop(["GS", "NS"], axis=1, inplace=False).astype(int)
 st.table(df_ranking.style.applymap(highlight_cols, subset=pd.IndexSlice[:, ['Pts']]))
 
 col1, col2, col3 = st.columns(3)
