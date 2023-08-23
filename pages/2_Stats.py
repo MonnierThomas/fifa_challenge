@@ -127,6 +127,15 @@ with col1:
     st.table(df_ranking["Pts"])
     
     st.markdown(
+            "<h3 style='text-align: center; color: red;'>Top Scorers</h3>",
+            unsafe_allow_html=True,
+        )
+
+    df_scorers = pd.DataFrame.from_dict(players_goals, orient="index").sort_values(by="Goals", ascending=False).astype(int)
+    st.table(df_scorers)
+
+with col2:
+    st.markdown(
             "<h3 style='text-align: center; color: red;'>Pts per Solo Match</h3>",
             unsafe_allow_html=True,
         )
@@ -136,15 +145,6 @@ with col1:
         ratio_victory_solo[player]["RVS"] = round((3 * dct["GS"] + 1 * dct["NS"]) / dct["MJS"] , 2)
     df_ratio_victory_solo = pd.DataFrame.from_dict(ratio_victory_solo, orient="index").sort_values(by="RVS", ascending=False).astype(float).round(4)
     st.table(df_ratio_victory_solo)
-
-with col2:
-    st.markdown(
-            "<h3 style='text-align: center; color: red;'>Top Scorers</h3>",
-            unsafe_allow_html=True,
-        )
-
-    df_scorers = pd.DataFrame.from_dict(players_goals, orient="index").sort_values(by="Goals", ascending=False).astype(int)
-    st.table(df_scorers)
 
     st.markdown(
             "<h3 style='text-align: center; color: red;'>Pts per Multi Match</h3>",
