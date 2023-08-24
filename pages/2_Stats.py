@@ -163,5 +163,5 @@ with col3:
             unsafe_allow_html=True,
         )
 
-    df_teams = pd.DataFrame.from_dict(teams, orient="index").sort_values(by="Pts", ascending=False).astype(int).style.applymap(highlight_cols, subset=pd.IndexSlice[:, ['Pts']])
+    df_teams = pd.DataFrame.from_dict(teams, orient="index").sort_values(by=["Pts", "MJS", "BP"], ascending=False).astype(int).style.applymap(highlight_cols, subset=pd.IndexSlice[:, ['Pts']])
     st.table(df_teams)
