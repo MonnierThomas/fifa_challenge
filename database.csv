@@ -33,41 +33,10 @@ Monnier,"Marc, Stephen",domestic,2,2,0,"{'Marc': 0, 'Monnier': 2, 'Stephen': 0}"
 Monnier,"Marc, Stephen",domestic,3,4,1,"{'Marc': 0, 'Monnier': 4, 'Stephen': 1}",Juventus,Manchester United,2023-08-23 21:17:59.778544
 Stephen,"Marc, Monnier",exterior,2,4,6,"{'Marc': 0, 'Monnier': 5, 'Stephen': 4}",RBK,Atalanta Bergame,2023-08-23 21:39:11.170535
 Stephen,"Marc, Monnier",exterior,3,3,6,"{'Marc': 5, 'Monnier': 1, 'Stephen': 3}",RBK,Atalanta Bergame,2023-08-23 21:47:53.222818
-Domestic players,Exterior players,Victory,Goals diff,Domestic goals,Exterior goals,Scorers,Domestic team,Exterior team,Time
-"Marc, Monnier",Stephen,exterior,2,0,2,"{'Marc': 0, 'Monnier': 0, 'Stephen': 2}",Arsenal,Real Betis,2023-08-21 14:26:06.148320
-"Marc, Monnier",Stephen,domestic,1,1,0,"{'Marc': 0, 'Monnier': 1, 'Stephen': 0}",Arsenal,Real Betis,2023-08-21 14:26:25.198219
-Marc,"Monnier, Stephen",exterior,1,2,3,"{'Marc': 2, 'Monnier': 1, 'Stephen': 2}",Villarreal,Real Sociedad,2023-08-21 19:11:05.531428
-Marc,"Monnier, Stephen",domestic,3,4,1,"{'Marc': 4, 'Monnier': 1, 'Stephen': 0}",Villarreal,Real Sociedad,2023-08-21 19:24:34.637660
-Marc,"Monnier, Stephen",domestic,3,3,0,"{'Marc': 3, 'Monnier': 0, 'Stephen': 0}",Atletico Madrid,Newcastle,2023-08-21 20:01:52.782021
-Marc,"Monnier, Stephen",draw,0,2,2,"{'Marc': 2, 'Monnier': 1, 'Stephen': 1}",Atletico Madrid,Newcastle,2023-08-21 20:03:09.251965
-Monnier,"Marc, Stephen",domestic,7,7,0,"{'Marc': 0, 'Monnier': 7, 'Stephen': 0}",Manchester City,Guangzhou FC,2023-08-21 20:26:46.439347
-Monnier,"Marc, Stephen",domestic,4,4,0,"{'Marc': 0, 'Monnier': 4, 'Stephen': 0}",Manchester City,Guangzhou FC,2023-08-21 20:28:04.037419
-"Monnier, Stephen",Marc,exterior,1,2,3,"{'Marc': 3, 'Monnier': 1, 'Stephen': 1}",Angers SC,Rayo Vallecano,2023-08-21 20:49:52.036944
-"Monnier, Stephen",Marc,domestic,1,3,2,"{'Marc': 2, 'Monnier': 2, 'Stephen': 1}",Angers SC,Rayo Vallecano,2023-08-21 20:50:44.901752
-Stephen,"Monnier, Marc",domestic,4,4,0,"{'Marc': 0, 'Monnier': 0, 'Stephen': 4}",Arsenal,Eintracht Frankfurt,2023-08-22 20:06:43.626133
-Stephen,"Marc, Monnier",domestic,3,5,2,"{'Marc': 1, 'Monnier': 1, 'Stephen': 5}",Arsenal,Eintracht Frankfurt,2023-08-22 20:07:39.727042
-Marc,"Monnier, Stephen",domestic,1,2,1,"{'Marc': 2, 'Monnier': 0, 'Stephen': 1}",Real Madrid,Everton,2023-08-22 20:20:38.615935
-Marc,"Monnier, Stephen",domestic,1,3,2,"{'Marc': 3, 'Monnier': 0, 'Stephen': 2}",Real Madrid,Everton,2023-08-22 20:32:02.403896
-Monnier,"Marc, Stephen",domestic,4,4,0,"{'Marc': 0, 'Monnier': 4, 'Stephen': 0}",Manchester United,Liverpool,2023-08-22 20:57:28.803457
-Monnier,"Marc, Stephen",draw,0,1,1,"{'Marc': 1, 'Monnier': 1, 'Stephen': 0}",Manchester United,Liverpool,2023-08-22 20:59:30.755209
-Stephen,"Marc, Monnier",domestic,1,2,1,"{'Marc': 0, 'Monnier': 1, 'Stephen': 2}",Tottenham,OM,2023-08-22 21:21:54.316551
-Stephen,"Monnier, Marc",domestic,4,4,0,"{'Marc': 0, 'Monnier': 0, 'Stephen': 4}",Tottenham,OM,2023-08-22 21:22:16.083714
-Stephen,"Monnier, Marc",exterior,1,2,3,"{'Marc': 1, 'Monnier': 2, 'Stephen': 2}",AIK,AC Milan,2023-08-22 21:45:58.331944
-Stephen,"Monnier, Marc",exterior,1,1,2,"{'Marc': 1, 'Monnier': 1, 'Stephen': 1}",AIK,AC Milan,2023-08-22 21:46:26.165273
-Marc,"Monnier, Stephen",domestic,2,2,0,"{'Marc': 2, 'Monnier': 0, 'Stephen': 0}",Arsenal,Liverpool,2023-08-22 22:09:11.685471
-Marc,"Monnier, Stephen",exterior,2,2,4,"{'Marc': 2, 'Monnier': 2, 'Stephen': 2}",Arsenal,Liverpool,2023-08-22 22:09:52.103172
-Marc,"Monnier, Stephen",domestic,2,2,0,"{'Marc': 2, 'Monnier': 0, 'Stephen': 0}",Eintracht Frankfurt,Real Betis,2023-08-23 18:36:27.692292
-Marc,"Monnier, Stephen",draw,0,0,0,"{'Marc': 0, 'Monnier': 0, 'Stephen': 0}",Eintracht Frankfurt,Real Betis,2023-08-23 18:36:38.439785
-Marc,"Monnier, Stephen",domestic,1,2,1,"{'Marc': 2, 'Monnier': 0, 'Stephen': 1}",Real Madrid,Southampton,2023-08-23 19:48:06.509979
-Marc,"Monnier, Stephen",domestic,1,2,1,"{'Marc': 2, 'Monnier': 1, 'Stephen': 0}",Real Madrid,Southampton,2023-08-23 19:48:20.312111
-Monnier,"Marc, Stephen",domestic,1,2,1,"{'Marc': 1, 'Monnier': 2, 'Stephen': 0}",Tottenham,Slavia Prague,2023-08-23 20:13:28.611447
-Monnier,"Marc, Stephen",domestic,1,2,1,"{'Marc': 0, 'Monnier': 2, 'Stephen': 1}",Tottenham,Slavia Prague,2023-08-23 20:13:34.578848
-Marc,"Monnier, Stephen",draw,0,1,1,"{'Marc': 1, 'Monnier': 1, 'Stephen': 0}",Manchester United,Chelsea,2023-08-23 20:40:50.940980
-Marc,"Monnier, Stephen",domestic,1,2,1,"{'Marc': 2, 'Monnier': 0, 'Stephen': 1}",Manchester United,Chelsea,2023-08-23 20:41:01.055857
-Monnier,"Marc, Stephen",domestic,2,2,0,"{'Marc': 0, 'Monnier': 2, 'Stephen': 0}",Juventus,Manchester United,2023-08-23 21:17:50.371430
-Monnier,"Marc, Stephen",domestic,3,4,1,"{'Marc': 0, 'Monnier': 4, 'Stephen': 1}",Juventus,Manchester United,2023-08-23 21:17:59.778544
-Stephen,"Marc, Monnier",exterior,2,4,6,"{'Marc': 0, 'Monnier': 5, 'Stephen': 4}",RBK,Atalanta Bergame,2023-08-23 21:39:11.170535
-Stephen,"Marc, Monnier",exterior,3,3,6,"{'Marc': 5, 'Monnier': 1, 'Stephen': 3}",RBK,Atalanta Bergame,2023-08-23 21:47:53.222818
+Stephen,"Marc, Monnier",domestic,1,3,2,"{'Marc': 1, 'Monnier': 1, 'Stephen': 3}",Tottenham,Eintracht Frankfurt,2023-08-24 18:17:01.618723
+Stephen,"Marc, Monnier",exterior,2,0,2,"{'Marc': 1, 'Monnier': 1, 'Stephen': 0}",Tottenham,Eintracht Frankfurt,2023-08-24 18:17:10.462790
+Monnier,"Marc, Stephen",exterior,1,1,2,"{'Marc': 1, 'Monnier': 1, 'Stephen': 1}",Manchester United,Bayern,2023-08-24 18:18:04.968875
+Monnier,"Marc, Stephen",exterior,1,0,1,"{'Marc': 0, 'Monnier': 0, 'Stephen': 1}",Manchester United,Bayern,2023-08-24 18:18:29.190352
 Stephen,"Marc, Monnier",domestic,1,2,1,"{'Marc': 0, 'Monnier': 1, 'Stephen': 2}",Seville,Dortmund,2023-08-28 21:59:24.052767
 Stephen,"Marc, Monnier",domestic,1,1,0,"{'Marc': 0, 'Monnier': 0, 'Stephen': 1}",Seville,Dortmund,2023-08-28 21:59:31.059627
 Monnier,"Marc, Stephen",domestic,4,4,0,"{'Marc': 0, 'Monnier': 4, 'Stephen': 0}",Manchester United,VFL Bochum,2023-08-28 22:22:37.061746
